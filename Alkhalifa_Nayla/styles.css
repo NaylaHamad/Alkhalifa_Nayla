@@ -1,0 +1,43 @@
+body{background: #e8de90;margin:0;overflow-y: scroll; font-family: Lato;}
+.logo{float:left;margin-top:35px;margin-bottom:5px;margin-left:80px;height: 50%;transition: 0.2s ease-in;}
+.logo:hover{transform:scale(1.05);cursor: pointer;}
+.top{background-color:#ccbf5c;height:140px;width:100%;margin-bottom:30px;box-shadow: 0px 0px 1px 1px rgba(76, 96, 180, 0.5);}
+.flag{height:100%; transition: 0.1s ease-in; border: 0;}
+.flag:hover{filter: grayscale(20%);cursor: pointer;transform:scale(1.05);}
+.flag:active{transform:scale(1);}
+.flag-cell {
+    max-width: 240px;
+    max-height: 160px;
+    height: 160px;
+    min-height: 160px;
+    min-width: 240px;
+	text-align: center;
+}
+.class{height:100%; transition: 0.1s ease-in; box-shadow: 0 0 5px 2px rgba(128,128,128,0.1);}
+.class:hover{box-shadow: 0 0 5px 2px rgba(128,128,128,0.4);cursor: pointer;transform:scale(1.05);}
+.class:active{height:98.5%;transform:scale(1.);}
+.tutor{
+	width: 200px;
+	text-align: center;
+	border-radius: 5px;
+	box-shadow: 0 0 5px 2px rgba(0,0,0,0.2);
+	transition: 0.2s ease-in;
+}
+.tutor:hover{box-shadow: 0 0 5px 3px rgba(128,128,128,0.5);cursor: pointer;transform:scale(1.02);}
+.content{width:100%;}
+#footer{position:relative;bottom:0;padding: 15px 20%;font-size:10px;text-align:center;color:#1E3490;background-color:#ccbf5c;margin-top:25px;}
+h1{color:#1E3490;font-weight:bold; font-family:Lato;text-align:center;}
+h2{color:#1E3490;font-weight:bold; font-family:Lato;text-align:center;}
+.container{background-color:#d1cbab; width: 70%; margin: 0 auto; padding:15px 25px;color:#1e3490 !important; border-radius: 5px; box-shadow: 0px 0px 1px 1px rgba(76, 96, 180, 0.5);}
+table.menu{margin: 0 auto; font-family:Lato;font-size:36px;text-align:center;padding-top:40px;}
+table.submenu{margin: 0 41.5%; font-family:Lato;font-size:24px;text-align:center;width:20%}
+.menuitem{height:50px;width:150px;font-size: 28px;color:#1E3490}
+a {color:#1E3490;text-decoration:none;font-weight:bold; transition: 0.2s ease-in;}
+a:hover {color:#4c60b4;text-decoration:none;font-weight:bold;font-size:105%}
+a:visited{text-decoration:none;font-weight:bold}
+a:active{color:#4c60b4;text-decoration:none;font-weight:bold;font-size:102%}
+.textbox{background-color:#ffffff; color:grey;display: block; margin: 15px auto 10px auto; border-radius: 3px; border: none; box-shadow: 0px 0px 2px 1px rgba(76, 96, 180, 0.5); padding: 5px;font-family: Lato;}
+.textarea{height:15%;width:40%;font-family: Lato;}
+#button{transition: 0.1s ease-in; margin: 30px auto 0px auto;}
+#button:hover{transition: 0.1s ease-in;cursor: pointer;background-color: #4c60b4; color: white;}
+#button:active{background-color:#1E3490; color: white;}
